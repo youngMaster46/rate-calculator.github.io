@@ -65,3 +65,32 @@ p {
     background-size:12px auto, 100%;
     background-repeat:no-repeat;
 }
+.currency input {
+    border:none;
+    background:transparent;
+    font-size: 30px;
+    text-align:right;
+    border-bottom:1px dotted var(--primary-color);
+}
+.swap-rate-container {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+#swap {
+    outline:none;
+    border:none;
+}
+.rate {
+    color: var(--primary-color);
+    font-size:14px;
+    padding:0 10px;
+   
+}
+@media (max-width: 600px) {
+    .currency input {
+        width:200px
+    }
+    
+}
